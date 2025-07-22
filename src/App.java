@@ -5,6 +5,7 @@ import java.util.Stack;
 
 import controllers.MaquinaController;
 import models.Maquina;
+import validaciones.ValidacionesMaquina;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -65,7 +66,6 @@ public class App {
                 new Maquina("Nodo7", "23.248.75.5", Arrays.asList(18, 28, 10, 27, 29)),
                 new Maquina("Nodo6", "169.238.150.174", Arrays.asList(6, 14, 3)),
                 new Maquina("DB13", "71.248.50.86", Arrays.asList(17, 11, 12)));
-        return maquinas;
-
+        return maquinas;  
     }
 }
